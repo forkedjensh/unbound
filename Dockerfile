@@ -1,6 +1,7 @@
 FROM alpine
 
 LABEL maintainer="Jens Heidbüchel <forkedjensh@mailbox.org>"
+ENV REFRESHED_AT 2022-10-24
 
 RUN apk add --no-cache curl unbound
 
